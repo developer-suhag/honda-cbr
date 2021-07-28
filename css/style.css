@@ -12,8 +12,45 @@ body{
 .honda-btn:hover{
     background: #ee5253;
 }
+.honda-btn:focus{
+    background: #ee5253;
+}
 /* header section  */
 header{
     background: #264653;
 }
-/* navbar  */
+/* feature bike section  */
+.colored-text{
+    color: #E76F51;
+}
+.feature-bike-section span{
+    position: relative;
+}
+.feature-bike-section span::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 48%;
+    width: 65px;
+    height: 1px;
+    background: #E76F51;
+}
+
+.gray-scale{
+    filter: grayscale(1);
+}
+
+/* latest news section  */
+.honda-card-title{
+    font-size: 28px;
+    color: #18191F;
+}
+.honda-outline-btn{
+    background: transparent;
+    border: 1px solid #E76F51;
+    color: #E76F51;
+}
+.honda-outline-btn:hover{
+    background: #E76F51;
+    color: #fff;
+}
