@@ -8,6 +8,13 @@ body{
 a{
     text-decoration: none;
 }
+ul{
+    padding-left: 0;
+}
+li{
+    list-style: none;
+    
+}
 .honda-btn{
     background: #E76F51;
     /* padding: 10px 24px; */
@@ -67,4 +74,19 @@ header{
 }
 .author-detai p{
     color: #252B42;
+}
+
+/* footer section  */
+footer{
+    background: #0B0D17;
+}
+.footer-section h4{
+    color: #D9DBE1;
+}
+.download-btn{
+    border: 1px solid #ddd;
+
+}
+.copyright p{
+    color: #D9DBE1;
 }
