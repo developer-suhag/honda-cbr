@@ -1,0 +1,16 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* common styles  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.honda-btn{
+    background: #E76F51;
+    /* padding: 10px 24px; */
+}
+/* header section  */
+header{
+    background: #264653;
+}
+/* navbar  */
