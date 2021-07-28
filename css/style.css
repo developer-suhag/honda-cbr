@@ -66,7 +66,7 @@ header{
 }
 
 /* testimonial section  */
-.testimonial-item{
+.testimonial-item, .awarda-item{
     border: 1px solid #DEDEDE;
 }
 .feedback p{
@@ -75,6 +75,21 @@ header{
 .author-detai p{
     color: #252B42;
 }
+
+/* achivements section  */
+.achivements-section span{
+    position: relative;
+}
+.achivements-section span::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 48%;
+    width: 65px;
+    height: 1px;
+    background: #E76F51;
+}
+
 
 /* footer section  */
 footer{
