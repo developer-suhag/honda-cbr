@@ -4,6 +4,7 @@
 /* common styles  */
 body{
     font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
 }
 a{
     text-decoration: none;
@@ -93,10 +94,16 @@ header{
     background: #E76F51;
 }
 /* contact us section */
+.contact-us-section{
+    background: #F8EFBA;
+}
+
 .contact-item:hover{
     transition: .4s;
     box-shadow: 0 .1rem .2rem rgba(0,0,0,.175)!important;
 }
+
+
 
 /* footer section  */
 footer{
@@ -136,6 +143,7 @@ footer{
     .achivements-section span::after {
         left: 43%;
     }
+
 }
 
 @media only screen and (max-width:556px) {
