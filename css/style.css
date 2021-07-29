@@ -1,171 +1,168 @@
 /* fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 /* common styles  */
-body{
-    font-family: 'Poppins', sans-serif;
-    /* overflow-x: hidden; */
+body {
+  font-family: "Poppins", sans-serif;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-
-.honda-btn{
-    background: #E76F51;
-    /* padding: 10px 24px; */
+.honda-btn {
+  background: #e76f51;
+  /* padding: 10px 24px; */
 }
-.honda-btn:hover{
-    background: #ee5253;
+.honda-btn:hover {
+  background: #ee5253;
 }
-.honda-btn:focus{
-    background: #ee5253;
+.honda-btn:focus {
+  background: #ee5253;
 }
 /* header section  */
-header{
-    background: #264653;
+header {
+  background: #264653;
+}
+.menu-link:hover {
+  color: #e76f51 !important;
 }
 /* feature bike section  */
-.colored-text{
-    color: #E76F51;
+.colored-text {
+  color: #e76f51;
 }
-.feature-bike-section span{
-    position: relative;
+.feature-bike-section span {
+  position: relative;
 }
 .feature-bike-section span::after {
-    content: "";
-    position: absolute;
-    top: 30px;
-    left: 48%;
-    width: 65px;
-    height: 1px;
-    background: #E76F51;
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 48%;
+  width: 65px;
+  height: 1px;
+  background: #e76f51;
 }
 
-.gray-scale{
-    filter: grayscale(1);
+.gray-scale {
+  filter: grayscale(1);
 }
 
 /* latest news section  */
-.honda-card-title{
-    font-size: 28px;
-    color: #18191F;
+.honda-card-title {
+  font-size: 28px;
+  color: #18191f;
 }
-.honda-outline-btn{
-    background: transparent;
-    border: 1px solid #E76F51;
-    color: #E76F51;
+.honda-outline-btn {
+  background: transparent;
+  border: 1px solid #e76f51;
+  color: #e76f51;
 }
-.honda-outline-btn:hover{
-    background: #E76F51;
-    color: #fff;
+.honda-outline-btn:hover {
+  background: #e76f51;
+  color: #fff;
 }
 
 /* testimonial section  */
-.testimonial-item, .awarda-item{
-    border: 1px solid #DEDEDE;
+.testimonial-item,
+.awarda-item {
+  border: 1px solid #dedede;
 }
-.feedback p{
-    color: #6C6C6C;    ;
+.feedback p {
+  color: #6c6c6c;
 }
-.author-detai p{
-    color: #252B42;
+.author-detai p {
+  color: #252b42;
 }
 
 /* discount section  */
-.black-friday-offer{
-    background: #000000;
+.black-friday-offer {
+  background: #000000;
 }
-.monthly-offer{
-    background: #d81416;
+.monthly-offer {
+  background: #d81416;
 }
 
 /* achivements section  */
-.achivements-section span{
-    position: relative;
+.achivements-section span {
+  position: relative;
 }
 .achivements-section span::after {
-    content: "";
-    position: absolute;
-    top: 30px;
-    left: 48%;
-    width: 65px;
-    height: 1px;
-    background: #E76F51;
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 48%;
+  width: 65px;
+  height: 1px;
+  background: #e76f51;
 }
 /* contact us section */
-.contact-us-section{
-    background: #F8EFBA;
+.contact-us-section {
+  background: #f8efba;
 }
 
-.contact-item:hover{
-    transition: .4s;
-    box-shadow: 0 .1rem .2rem rgba(0,0,0,.175)!important;
+.contact-item:hover {
+  transition: 0.4s;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.175) !important;
 }
-
-
 
 /* footer section  */
-footer{
-    background: #0B0D17;
+footer {
+  background: #0b0d17;
 }
-.footer-section ul{
-    padding-left: 0;
+.footer-section ul {
+  padding-left: 0;
 }
-.footer-section ul li{
-    list-style: none;
+.footer-section ul li {
+  list-style: none;
 }
-.footer-section h4{
-    color: #D9DBE1;
+.footer-section h4 {
+  color: #d9dbe1;
 }
-.download-btn{
-    border: 1px solid #ddd;
-
+.download-btn {
+  border: 1px solid #ddd;
 }
-.copyright p{
-    color: #D9DBE1;
+.copyright p {
+  color: #d9dbe1;
 }
-
 
 /* media query  */
 
-@media only screen and (max-width:768px) {
-    .hero-bike{
-        margin-top: 40px;
-        text-align: center;
-    }
-    .feature-bike-section span::after {
-        left: 43%;
-    }
-    .honda-card-title{
-        font-size: 24px;
-    }
-    .achivements-section span::after {
-        left: 43%;
-    }
-
+@media only screen and (max-width: 768px) {
+  .hero-bike {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .feature-bike-section span::after {
+    left: 43%;
+  }
+  .honda-card-title {
+    font-size: 24px;
+  }
+  .achivements-section span::after {
+    left: 43%;
+  }
 }
 
-@media only screen and (max-width:556px) {
-    .hero-section p{
-        font-size: 14px;
-    }
-    .hero-section h1{
-        font-size: 36px;
-    }
-    .section-title{
-        font-size: 30px;
-    }
-    .achivements-section span::after {
-        left: 40%;
-    }
-    .footer-section ul li {
-        margin: 0;
-    }
-    .footer-section ul li a{
-        font-size: 14px;
-    }
-    .download-app{
-        margin-top: 20px;
-    }
+@media only screen and (max-width: 556px) {
+  .hero-section p {
+    font-size: 14px;
+  }
+  .hero-section h1 {
+    font-size: 36px;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  .achivements-section span::after {
+    left: 40%;
+  }
+  .footer-section ul li {
+    margin: 0;
+  }
+  .footer-section ul li a {
+    font-size: 14px;
+  }
+  .download-app {
+    margin-top: 20px;
+  }
 }
