@@ -92,7 +92,11 @@ header{
     height: 1px;
     background: #E76F51;
 }
-
+/* contact us section */
+.contact-item:hover{
+    transition: .4s;
+    box-shadow: 0 .1rem .2rem rgba(0,0,0,.175)!important;
+}
 
 /* footer section  */
 footer{
