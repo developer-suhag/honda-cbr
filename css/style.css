@@ -8,13 +8,8 @@ body{
 a{
     text-decoration: none;
 }
-ul{
-    padding-left: 0;
-}
-li{
-    list-style: none;
-    
-}
+
+
 .honda-btn{
     background: #E76F51;
     /* padding: 10px 24px; */
@@ -76,6 +71,14 @@ header{
     color: #252B42;
 }
 
+/* discount section  */
+.black-friday-offer{
+    background: #000000;
+}
+.monthly-offer{
+    background: #d81416;
+}
+
 /* achivements section  */
 .achivements-section span{
     position: relative;
@@ -94,6 +97,12 @@ header{
 /* footer section  */
 footer{
     background: #0B0D17;
+}
+.footer-section ul{
+    padding-left: 0;
+}
+.footer-section ul li{
+    list-style: none;
 }
 .footer-section h4{
     color: #D9DBE1;
